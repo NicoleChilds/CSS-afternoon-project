@@ -1,0 +1,65 @@
+/* . targets class (className in react) */
+/* # targets id */
+/* blank target the selector */
+
+
+body {
+  background: blue;
+  font-family: sans-serif;
+}
+
+ h1 {
+  text-align: center;
+  font-size: 60px;
+  font-style: sans-serif;
+  color: white;
+  margin-top: 150px;
+
+
+}
+
+nav {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  color: white;
+  margin-top: 70px;
+
+}
+
+#nav-button {
+  border-radius: 40px/24px;
+  width: 150px;
+  height: 50px;
+  border: white 1px solid;
+  background-color: transparent;
+  color: white;
+}
+.text-box {
+  display: flex;
+  justify-content: center;
+
+}
+#button-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+#start-button {
+  border-radius: 40px/24px;
+  width: 250px;
+  height: 60px;
+  border: white 1px solid;
+  color: black;
+  background: white;
+}
+.text-box p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 60%;
+  line-height: 30px;
+
+
+}
